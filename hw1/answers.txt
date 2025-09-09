@@ -1,0 +1,54 @@
+1) The size_t type is for sizes, it is guarenteed to be big enough to represent the size of any given data structure
+
+2) False
+
+3) Probably Python
+
+4) I think the switch statement could be nicer but it looks like ultimately the flow is correct.
+
+5) 	
+	- It checks that two strings match up to size number of characters
+	- It looks like it returns 0 when they all match and any other number if they do not. 
+	- Iterates until
+		- size reaches 0
+		- s1 or s2 reaches a null terminator
+		- s1 and s2 are not equal
+	- Uses pointer arithmetic to iterate through strings
+	- Question: Why are s1, s2 cast to const unsigned char?
+
+	- Bonus
+		- Same thing but looks at the whole string, not just first <size> chars
+
+6) 
+
+7)
+	Stack
+		- Function stack frames
+		- local variables that live with the function and deallocate when a function returns
+
+	Heap
+		- Where dynamic memory is allocated
+		- malloc goes here
+		- memory persists until you free it
+
+	When to use one or the other?
+	- Stack when the size of the object is known at compile time and you only need it for the life of the function
+	- Heap if the thing is an unknown size or you need to use it outside of the function in which you declare it (if you need to pass it by reference)
+
+	How do you know if a value in a C program is allocated on the stack or on the heap?
+	 - If it is dynamically allocated or not?
+
+8)
+	What is the memory representation of strings in C?
+		- continuous arrays of a fixed size ending with the null terminator
+
+	What is an alternative solution?
+		- Linked list
+		- more dynamic
+		- not fixed size
+		- much slower to iterate over
+
+	- Stored as arrays in memory, continuously. 
+	- Could be stored as linked lists
+		- could enable easier dynamic lengths
+		- but would not be as performant
