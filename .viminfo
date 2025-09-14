@@ -15,17 +15,17 @@ $
 
 # Command Line History (newest to oldest):
 :wq
-|2,0,1757893346,,"wq"
+|2,0,1757893592,,"wq"
+:q!
+|2,0,1757893473,,"q!"
 :w
 |2,0,1757893210,,"w"
-:q!
-|2,0,1757200340,,"q!"
 :wq!
 |2,0,1757197078,,"wq!"
 
 # Search String History (newest to oldest):
 ? @$
-|2,1,1757197263,,"@$"
+|2,1,1757893469,,"@$"
 
 # Expression History (newest to oldest):
 
@@ -34,12 +34,12 @@ $
 # Debug Line History (newest to oldest):
 
 # Registers:
-"0	LINE	0
-	nt main() {}
-|3,0,0,1,1,0,1757197263,"nt main() {}"
-""1	LINE	0
+""0	LINE	0
 	
-|3,1,1,1,1,0,1757455948,""
+|3,1,0,1,1,0,1757893469,""
+"1	LINE	0
+	
+|3,0,1,1,1,0,1757455948,""
 "2	LINE	0
 	
 |3,0,2,1,1,0,1757455947,""
@@ -79,34 +79,66 @@ $
 |3,0,36,0,1,0,1757210284,"/"
 
 # File marks:
-'0  3  10  ~/hw2/answers.txt
-|4,48,3,10,1757893346,"~/hw2/answers.txt"
-'1  3  2  ~/hw2/answers.txt
-|4,49,3,2,1757892939,"~/hw2/answers.txt"
-'2  2  0  ~/notes-2.txt
-|4,50,2,0,1757460814,"~/notes-2.txt"
-'3  41  1  ~/hw1/answers.txt
-|4,51,41,1,1757460495,"~/hw1/answers.txt"
-'4  1  0  ~/hello.txt
-|4,52,1,0,1757456300,"~/hello.txt"
-'5  17  41  ~/hw1/answers.txt
-|4,53,17,41,1757456290,"~/hw1/answers.txt"
-'6  17  41  ~/hw1/answers.txt
-|4,54,17,41,1757456290,"~/hw1/answers.txt"
-'7  1  0  ~/hw1/answers.txt
-|4,55,1,0,1757455726,"~/hw1/answers.txt"
-'8  1  0  ~/hw1/answers.txt
-|4,56,1,0,1757455726,"~/hw1/answers.txt"
+'0  7  0  ~/.gitignore
+|4,48,7,0,1757893592,"~/.gitignore"
+'1  8  0  ~/.cache
+|4,49,8,0,1757893473,"~/.cache"
+'2  3  10  ~/hw2/answers.txt
+|4,50,3,10,1757893346,"~/hw2/answers.txt"
+'3  3  2  ~/hw2/answers.txt
+|4,51,3,2,1757892939,"~/hw2/answers.txt"
+'4  2  0  ~/notes-2.txt
+|4,52,2,0,1757460814,"~/notes-2.txt"
+'5  41  1  ~/hw1/answers.txt
+|4,53,41,1,1757460495,"~/hw1/answers.txt"
+'6  1  0  ~/hello.txt
+|4,54,1,0,1757456300,"~/hello.txt"
+'7  17  41  ~/hw1/answers.txt
+|4,55,17,41,1757456290,"~/hw1/answers.txt"
+'8  17  41  ~/hw1/answers.txt
+|4,56,17,41,1757456290,"~/hw1/answers.txt"
 '9  1  0  ~/hw1/answers.txt
 |4,57,1,0,1757455726,"~/hw1/answers.txt"
 
 # Jumplist (newest first):
+-'  7  0  ~/.gitignore
+|4,39,7,0,1757893592,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1757893558,"~/.gitignore"
+-'  8  0  ~/.cache
+|4,39,8,0,1757893473,"~/.cache"
+-'  8  0  ~/.cache
+|4,39,8,0,1757893473,"~/.cache"
+-'  3  10  ~/hw2/answers.txt
+|4,39,3,10,1757893346,"~/hw2/answers.txt"
+-'  3  10  ~/hw2/answers.txt
+|4,39,3,10,1757893346,"~/hw2/answers.txt"
+-'  3  10  ~/hw2/answers.txt
+|4,39,3,10,1757893346,"~/hw2/answers.txt"
 -'  3  10  ~/hw2/answers.txt
 |4,39,3,10,1757893346,"~/hw2/answers.txt"
 -'  1  0  ~/hw2/answers.txt
 |4,39,1,0,1757893205,"~/hw2/answers.txt"
+-'  1  0  ~/hw2/answers.txt
+|4,39,1,0,1757893205,"~/hw2/answers.txt"
+-'  1  0  ~/hw2/answers.txt
+|4,39,1,0,1757893205,"~/hw2/answers.txt"
+-'  1  0  ~/hw2/answers.txt
+|4,39,1,0,1757893205,"~/hw2/answers.txt"
 -'  3  2  ~/hw2/answers.txt
 |4,39,3,2,1757892939,"~/hw2/answers.txt"
+-'  3  2  ~/hw2/answers.txt
+|4,39,3,2,1757892939,"~/hw2/answers.txt"
+-'  3  2  ~/hw2/answers.txt
+|4,39,3,2,1757892939,"~/hw2/answers.txt"
+-'  3  2  ~/hw2/answers.txt
+|4,39,3,2,1757892939,"~/hw2/answers.txt"
+-'  1  0  ~/hw2/answers.txt
+|4,39,1,0,1757892841,"~/hw2/answers.txt"
+-'  1  0  ~/hw2/answers.txt
+|4,39,1,0,1757892841,"~/hw2/answers.txt"
+-'  1  0  ~/hw2/answers.txt
+|4,39,1,0,1757892841,"~/hw2/answers.txt"
 -'  1  0  ~/hw2/answers.txt
 |4,39,1,0,1757892841,"~/hw2/answers.txt"
 -'  2  0  ~/notes-2.txt
@@ -117,6 +149,54 @@ $
 |4,39,2,0,1757460814,"~/notes-2.txt"
 -'  2  0  ~/notes-2.txt
 |4,39,2,0,1757460814,"~/notes-2.txt"
+-'  2  0  ~/notes-2.txt
+|4,39,2,0,1757460814,"~/notes-2.txt"
+-'  2  0  ~/notes-2.txt
+|4,39,2,0,1757460814,"~/notes-2.txt"
+-'  2  0  ~/notes-2.txt
+|4,39,2,0,1757460814,"~/notes-2.txt"
+-'  2  0  ~/notes-2.txt
+|4,39,2,0,1757460814,"~/notes-2.txt"
+-'  2  0  ~/notes-2.txt
+|4,39,2,0,1757460814,"~/notes-2.txt"
+-'  2  0  ~/notes-2.txt
+|4,39,2,0,1757460814,"~/notes-2.txt"
+-'  2  0  ~/notes-2.txt
+|4,39,2,0,1757460814,"~/notes-2.txt"
+-'  2  0  ~/notes-2.txt
+|4,39,2,0,1757460814,"~/notes-2.txt"
+-'  2  0  ~/notes-2.txt
+|4,39,2,0,1757460814,"~/notes-2.txt"
+-'  2  0  ~/notes-2.txt
+|4,39,2,0,1757460814,"~/notes-2.txt"
+-'  2  0  ~/notes-2.txt
+|4,39,2,0,1757460814,"~/notes-2.txt"
+-'  2  0  ~/notes-2.txt
+|4,39,2,0,1757460814,"~/notes-2.txt"
+-'  1  0  ~/notes-2.txt
+|4,39,1,0,1757460501,"~/notes-2.txt"
+-'  1  0  ~/notes-2.txt
+|4,39,1,0,1757460501,"~/notes-2.txt"
+-'  1  0  ~/notes-2.txt
+|4,39,1,0,1757460501,"~/notes-2.txt"
+-'  1  0  ~/notes-2.txt
+|4,39,1,0,1757460501,"~/notes-2.txt"
+-'  1  0  ~/notes-2.txt
+|4,39,1,0,1757460501,"~/notes-2.txt"
+-'  1  0  ~/notes-2.txt
+|4,39,1,0,1757460501,"~/notes-2.txt"
+-'  1  0  ~/notes-2.txt
+|4,39,1,0,1757460501,"~/notes-2.txt"
+-'  1  0  ~/notes-2.txt
+|4,39,1,0,1757460501,"~/notes-2.txt"
+-'  1  0  ~/notes-2.txt
+|4,39,1,0,1757460501,"~/notes-2.txt"
+-'  1  0  ~/notes-2.txt
+|4,39,1,0,1757460501,"~/notes-2.txt"
+-'  1  0  ~/notes-2.txt
+|4,39,1,0,1757460501,"~/notes-2.txt"
+-'  1  0  ~/notes-2.txt
+|4,39,1,0,1757460501,"~/notes-2.txt"
 -'  1  0  ~/notes-2.txt
 |4,39,1,0,1757460501,"~/notes-2.txt"
 -'  1  0  ~/notes-2.txt
@@ -141,6 +221,54 @@ $
 |4,39,41,1,1757460495,"~/hw1/answers.txt"
 -'  41  1  ~/hw1/answers.txt
 |4,39,41,1,1757460495,"~/hw1/answers.txt"
+-'  41  1  ~/hw1/answers.txt
+|4,39,41,1,1757460495,"~/hw1/answers.txt"
+-'  41  1  ~/hw1/answers.txt
+|4,39,41,1,1757460495,"~/hw1/answers.txt"
+-'  41  1  ~/hw1/answers.txt
+|4,39,41,1,1757460495,"~/hw1/answers.txt"
+-'  41  1  ~/hw1/answers.txt
+|4,39,41,1,1757460495,"~/hw1/answers.txt"
+-'  41  1  ~/hw1/answers.txt
+|4,39,41,1,1757460495,"~/hw1/answers.txt"
+-'  41  1  ~/hw1/answers.txt
+|4,39,41,1,1757460495,"~/hw1/answers.txt"
+-'  41  1  ~/hw1/answers.txt
+|4,39,41,1,1757460495,"~/hw1/answers.txt"
+-'  41  1  ~/hw1/answers.txt
+|4,39,41,1,1757460495,"~/hw1/answers.txt"
+-'  41  1  ~/hw1/answers.txt
+|4,39,41,1,1757460495,"~/hw1/answers.txt"
+-'  41  1  ~/hw1/answers.txt
+|4,39,41,1,1757460495,"~/hw1/answers.txt"
+-'  41  1  ~/hw1/answers.txt
+|4,39,41,1,1757460495,"~/hw1/answers.txt"
+-'  41  1  ~/hw1/answers.txt
+|4,39,41,1,1757460495,"~/hw1/answers.txt"
+-'  41  1  ~/hw1/answers.txt
+|4,39,41,1,1757460495,"~/hw1/answers.txt"
+-'  41  1  ~/hw1/answers.txt
+|4,39,41,1,1757460495,"~/hw1/answers.txt"
+-'  41  1  ~/hw1/answers.txt
+|4,39,41,1,1757460495,"~/hw1/answers.txt"
+-'  41  1  ~/hw1/answers.txt
+|4,39,41,1,1757460495,"~/hw1/answers.txt"
+-'  41  1  ~/hw1/answers.txt
+|4,39,41,1,1757460495,"~/hw1/answers.txt"
+-'  41  1  ~/hw1/answers.txt
+|4,39,41,1,1757460495,"~/hw1/answers.txt"
+-'  41  1  ~/hw1/answers.txt
+|4,39,41,1,1757460495,"~/hw1/answers.txt"
+-'  41  1  ~/hw1/answers.txt
+|4,39,41,1,1757460495,"~/hw1/answers.txt"
+-'  41  1  ~/hw1/answers.txt
+|4,39,41,1,1757460495,"~/hw1/answers.txt"
+-'  41  1  ~/hw1/answers.txt
+|4,39,41,1,1757460495,"~/hw1/answers.txt"
+-'  41  1  ~/hw1/answers.txt
+|4,39,41,1,1757460495,"~/hw1/answers.txt"
+-'  41  1  ~/hw1/answers.txt
+|4,39,41,1,1757460495,"~/hw1/answers.txt"
 -'  4  0  ~/hw1/answers.txt
 |4,39,4,0,1757458860,"~/hw1/answers.txt"
 -'  4  0  ~/hw1/answers.txt
@@ -157,152 +285,31 @@ $
 |4,39,4,0,1757458860,"~/hw1/answers.txt"
 -'  4  0  ~/hw1/answers.txt
 |4,39,4,0,1757458860,"~/hw1/answers.txt"
--'  2  0  ~/hw1/answers.txt
-|4,39,2,0,1757458859,"~/hw1/answers.txt"
--'  1  0  ~/hw1/answers.txt
-|4,39,1,0,1757458859,"~/hw1/answers.txt"
--'  2  0  ~/hw1/answers.txt
-|4,39,2,0,1757458859,"~/hw1/answers.txt"
--'  1  0  ~/hw1/answers.txt
-|4,39,1,0,1757458859,"~/hw1/answers.txt"
--'  2  0  ~/hw1/answers.txt
-|4,39,2,0,1757458859,"~/hw1/answers.txt"
--'  1  0  ~/hw1/answers.txt
-|4,39,1,0,1757458859,"~/hw1/answers.txt"
--'  2  0  ~/hw1/answers.txt
-|4,39,2,0,1757458859,"~/hw1/answers.txt"
--'  1  0  ~/hw1/answers.txt
-|4,39,1,0,1757458859,"~/hw1/answers.txt"
--'  2  0  ~/hw1/answers.txt
-|4,39,2,0,1757458859,"~/hw1/answers.txt"
--'  1  0  ~/hw1/answers.txt
-|4,39,1,0,1757458859,"~/hw1/answers.txt"
--'  2  0  ~/hw1/answers.txt
-|4,39,2,0,1757458859,"~/hw1/answers.txt"
--'  1  0  ~/hw1/answers.txt
-|4,39,1,0,1757458859,"~/hw1/answers.txt"
--'  2  0  ~/hw1/answers.txt
-|4,39,2,0,1757458859,"~/hw1/answers.txt"
--'  1  0  ~/hw1/answers.txt
-|4,39,1,0,1757458859,"~/hw1/answers.txt"
--'  2  0  ~/hw1/answers.txt
-|4,39,2,0,1757458859,"~/hw1/answers.txt"
--'  1  0  ~/hw1/answers.txt
-|4,39,1,0,1757458859,"~/hw1/answers.txt"
--'  1  0  ~/hello.txt
-|4,39,1,0,1757456300,"~/hello.txt"
--'  1  0  ~/hello.txt
-|4,39,1,0,1757456300,"~/hello.txt"
--'  1  0  ~/hello.txt
-|4,39,1,0,1757456300,"~/hello.txt"
--'  1  0  ~/hello.txt
-|4,39,1,0,1757456300,"~/hello.txt"
--'  1  0  ~/hello.txt
-|4,39,1,0,1757456300,"~/hello.txt"
--'  1  0  ~/hello.txt
-|4,39,1,0,1757456300,"~/hello.txt"
--'  1  0  ~/hello.txt
-|4,39,1,0,1757456300,"~/hello.txt"
--'  1  0  ~/hello.txt
-|4,39,1,0,1757456300,"~/hello.txt"
--'  1  0  ~/hello.txt
-|4,39,1,0,1757456300,"~/hello.txt"
--'  1  0  ~/hello.txt
-|4,39,1,0,1757456300,"~/hello.txt"
--'  1  0  ~/hello.txt
-|4,39,1,0,1757456300,"~/hello.txt"
--'  1  0  ~/hello.txt
-|4,39,1,0,1757456300,"~/hello.txt"
--'  1  0  ~/hello.txt
-|4,39,1,0,1757456300,"~/hello.txt"
--'  1  0  ~/hello.txt
-|4,39,1,0,1757456300,"~/hello.txt"
--'  1  0  ~/hello.txt
-|4,39,1,0,1757456300,"~/hello.txt"
--'  1  0  ~/hello.txt
-|4,39,1,0,1757456300,"~/hello.txt"
--'  17  41  ~/hw1/answers.txt
-|4,39,17,41,1757456290,"~/hw1/answers.txt"
--'  17  41  ~/hw1/answers.txt
-|4,39,17,41,1757456290,"~/hw1/answers.txt"
--'  17  41  ~/hw1/answers.txt
-|4,39,17,41,1757456290,"~/hw1/answers.txt"
--'  17  41  ~/hw1/answers.txt
-|4,39,17,41,1757456290,"~/hw1/answers.txt"
--'  17  41  ~/hw1/answers.txt
-|4,39,17,41,1757456290,"~/hw1/answers.txt"
--'  17  41  ~/hw1/answers.txt
-|4,39,17,41,1757456290,"~/hw1/answers.txt"
--'  17  41  ~/hw1/answers.txt
-|4,39,17,41,1757456290,"~/hw1/answers.txt"
--'  17  41  ~/hw1/answers.txt
-|4,39,17,41,1757456290,"~/hw1/answers.txt"
--'  17  41  ~/hw1/answers.txt
-|4,39,17,41,1757456290,"~/hw1/answers.txt"
--'  17  41  ~/hw1/answers.txt
-|4,39,17,41,1757456290,"~/hw1/answers.txt"
--'  17  41  ~/hw1/answers.txt
-|4,39,17,41,1757456290,"~/hw1/answers.txt"
--'  17  41  ~/hw1/answers.txt
-|4,39,17,41,1757456290,"~/hw1/answers.txt"
--'  17  41  ~/hw1/answers.txt
-|4,39,17,41,1757456290,"~/hw1/answers.txt"
--'  17  41  ~/hw1/answers.txt
-|4,39,17,41,1757456290,"~/hw1/answers.txt"
--'  17  41  ~/hw1/answers.txt
-|4,39,17,41,1757456290,"~/hw1/answers.txt"
--'  17  41  ~/hw1/answers.txt
-|4,39,17,41,1757456290,"~/hw1/answers.txt"
--'  17  41  ~/hw1/answers.txt
-|4,39,17,41,1757456290,"~/hw1/answers.txt"
--'  17  41  ~/hw1/answers.txt
-|4,39,17,41,1757456290,"~/hw1/answers.txt"
--'  17  41  ~/hw1/answers.txt
-|4,39,17,41,1757456290,"~/hw1/answers.txt"
--'  17  41  ~/hw1/answers.txt
-|4,39,17,41,1757456290,"~/hw1/answers.txt"
--'  17  41  ~/hw1/answers.txt
-|4,39,17,41,1757456290,"~/hw1/answers.txt"
--'  17  41  ~/hw1/answers.txt
-|4,39,17,41,1757456290,"~/hw1/answers.txt"
--'  17  41  ~/hw1/answers.txt
-|4,39,17,41,1757456290,"~/hw1/answers.txt"
--'  17  41  ~/hw1/answers.txt
-|4,39,17,41,1757456290,"~/hw1/answers.txt"
--'  51  0  ~/hw1/answers.txt
-|4,39,51,0,1757455936,"~/hw1/answers.txt"
--'  51  0  ~/hw1/answers.txt
-|4,39,51,0,1757455936,"~/hw1/answers.txt"
--'  51  0  ~/hw1/answers.txt
-|4,39,51,0,1757455936,"~/hw1/answers.txt"
--'  51  0  ~/hw1/answers.txt
-|4,39,51,0,1757455936,"~/hw1/answers.txt"
--'  51  0  ~/hw1/answers.txt
-|4,39,51,0,1757455936,"~/hw1/answers.txt"
--'  51  0  ~/hw1/answers.txt
-|4,39,51,0,1757455936,"~/hw1/answers.txt"
--'  51  0  ~/hw1/answers.txt
-|4,39,51,0,1757455936,"~/hw1/answers.txt"
--'  51  0  ~/hw1/answers.txt
-|4,39,51,0,1757455936,"~/hw1/answers.txt"
--'  51  0  ~/hw1/answers.txt
-|4,39,51,0,1757455936,"~/hw1/answers.txt"
--'  51  0  ~/hw1/answers.txt
-|4,39,51,0,1757455936,"~/hw1/answers.txt"
--'  51  0  ~/hw1/answers.txt
-|4,39,51,0,1757455936,"~/hw1/answers.txt"
--'  51  0  ~/hw1/answers.txt
-|4,39,51,0,1757455936,"~/hw1/answers.txt"
--'  51  0  ~/hw1/answers.txt
-|4,39,51,0,1757455936,"~/hw1/answers.txt"
--'  51  0  ~/hw1/answers.txt
-|4,39,51,0,1757455936,"~/hw1/answers.txt"
--'  51  0  ~/hw1/answers.txt
-|4,39,51,0,1757455936,"~/hw1/answers.txt"
--'  51  0  ~/hw1/answers.txt
-|4,39,51,0,1757455936,"~/hw1/answers.txt"
+-'  4  0  ~/hw1/answers.txt
+|4,39,4,0,1757458860,"~/hw1/answers.txt"
+-'  4  0  ~/hw1/answers.txt
+|4,39,4,0,1757458860,"~/hw1/answers.txt"
+-'  4  0  ~/hw1/answers.txt
+|4,39,4,0,1757458860,"~/hw1/answers.txt"
+-'  4  0  ~/hw1/answers.txt
+|4,39,4,0,1757458860,"~/hw1/answers.txt"
+-'  4  0  ~/hw1/answers.txt
+|4,39,4,0,1757458860,"~/hw1/answers.txt"
+-'  4  0  ~/hw1/answers.txt
+|4,39,4,0,1757458860,"~/hw1/answers.txt"
+-'  4  0  ~/hw1/answers.txt
+|4,39,4,0,1757458860,"~/hw1/answers.txt"
+-'  4  0  ~/hw1/answers.txt
+|4,39,4,0,1757458860,"~/hw1/answers.txt"
 
 # History of marks within files (newest to oldest):
+
+> ~/.gitignore
+	*	1757893591	0
+	"	7	0
+	^	7	0
+	.	7	0
+	+	7	0
 
 > ~/hw2/answers.txt
 	*	1757893345	0
