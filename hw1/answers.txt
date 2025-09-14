@@ -1,4 +1,4 @@
-1) The size_t type is for sizes, it is guarenteed to be big enough to represent the size of any given data structure
+1) The size_t type is for sizes, it is guarenteed to be big enough to represent the size of any given struct
 
 2) False
 

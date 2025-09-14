@@ -1,0 +1,2 @@
+Syscall switches execution to the operating system
+
