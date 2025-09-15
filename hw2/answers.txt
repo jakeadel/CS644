@@ -1,3 +1,25 @@
 1. A syscall calls the OS kernel, a function is a call to code in userspace.
 2. An I/O error will return -1, eof will return 0 (no bytes read)
-3. O_APPEND
+3. O_WRONLY, O_APPEND
+4. q4.c
+5. 
+6. 
+	One byte per is very slow (7s).
+	Ten bytes is ten times faster (0.7s)
+	64 bytes (0.165s)
+	100 bytes (.119s)
+	1000 bytes (0.053s)
+	10,000 bytes (0.48s)
+	100,000 bytes (0.048s)
+	1,000,000 bytes (0.050s)
+	10,000,000 bytes segfault - why?
+
+	Q: What really happens when you read a file? Are the bytes placed somewhere? I assumed after 64 (L1 cache line size) the performance would not improve. I don't know what speeds it up past that. Maybe chunks are being loaded into memory.
+
+1,000,000 bytes is 1MB
+
+I guess anything is quicker than doing a read to disc. Loading the data into the buffer will load it all into RAM at least.
+
+7. You are not guarenteed to see any data you wrote. The man 2 open notes state that no write is guarenteed unless fsync is called.
+
+8. I believe you will be able to see the new data in the reader program.
